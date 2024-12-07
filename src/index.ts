@@ -105,6 +105,8 @@ app.get('/api/submit/worded_ip', (req, res) => {
     })
 })
 
+
+//@ts-ignore
 app.get('/api/emoji', (req,res) => {
     res.send(`<p><h4>Key:</h4> gkBfp8_qaXboA8g8njAtAlI3eskvq3htZRCSKrew2vk=</p><p><h4>EncryptedText: </h4>gAAAAABnKEcPnEBuVbIedfTt3e0ppheDi7rJU4y4Wx64_MQrKuro_7yjI1y2ykknl814QstDdehLoBWfMJVZKC_irNfpVi-RSRIYOOK_WQ1J7cd9uV488yoYD5X8k5ZE6qtG7jbeQQmLMektGcjcdCDmei3E9JuAOa-XQG0mkr9TNeQHI2gFn-2j73MYbeQCgrrblxpfC7qVPy2QFEjkUnSiUTI16qnQWzpot2qebyy5q9kckFtX1eZuGbLLTvs90lP8Kmz9yrL0-9aD0oEzkIjztvXW7tdLnltd3nZhgdAU7l-1ib43seXsBY5CEv22YRNHJDqIs3WTr1xDk-YykBxMBX8rBxC_81JAGeKZbkgf-bmiQLRocbANwxiWpGsYoUxcnmuVgpUd0B2hE07TB9PSRxSbqeSWP7LLkeNTLkiVguBUSxduXVl3OA0TxSf94aeQseX7WzwFlgPcdJAxLyeFM6I_VvR8jo-2Pz_oaWa2vLvVAFe_9IVAibbO7qEki1oQgB8lcvuraRWUsiCnspf0lFjYz7vLpGD3Bb3LntIXW9O68__hOWRaY--7fe1I5D75XYE3tFT5-JylecM06X5tSFh6SOfB2182Le_PgPu89L8CR27zhc06Rou1k9OVoyZn4McVT1L686j5VVXvIOVdgU_GgT0JAaLqfLWAxEZ59bMbCuBElbLtYKKOTT8lP4hfcS3TUf0wrzqmHqTE_ps45Y8DQApT3RdbP34ZsR4PbLok0nVBOM9L7Jsz4WoRak0nSUBad71tBgrjmhdR2e1gNEASaHxy3wgpM2mw_xPer_j4NrxoNRCGi6AeWqaAPh3C-_zU--0keqaaLNTZGRAGTBr7484XD2sbCtyFw1EfyudoMJBfu0FFKI4ZcXHBgJykrGJbeFeuzU_MMmk4SD9tX_SMWPpJuYKPZQ5svWTZQ5kteZAkprY=</p>`)
 })
@@ -129,6 +131,10 @@ app.get('/api/submit/emoji', (req,res) => {
     res.status(400).json({
         message: "Sorry! Wrong answer"
     });
+})
+
+app.get('/api/golang', (req,res) => {
+    res.send(`<h4>SquadCast</h4><p>Implement a program to find the better location based on the condition provided. Make an API call to get the city names and a suitable condition. Use the city names to make another API call get the weather details of the city and determine the better location among them depending on the condition.</p><h4>Golang</h4><p>Implement a program to find the hidden IP Address (written in words) in a passage full of random words provided by the below link. You have to parse the valid IP address and written it in the correct IPv4 format e.g. 193.92.89.206</p><h4>SquadGolang</h4><p>blame detect supplements shop bradley enhancement hamilton table off herb britain its fri henderson verbal consultancy equation moved soup lauderdale lamp broken gently signals represented approx sullivan paid d hash one nine three point nine two point eight nine point two zero six rentcom inflation roles trustee hull button christians accidents ice governmental</p>`)
 })
 
 
